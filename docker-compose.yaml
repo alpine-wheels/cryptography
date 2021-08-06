@@ -4,7 +4,7 @@ version: '3.8'
 
 services:
   build:
-    image: python:3.9.5-alpine3.13
+    image: python:3.10.0rc1-alpine3.14
     working_dir: /workspace
     entrypoint:
       - /bin/sh
